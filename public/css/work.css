@@ -1,0 +1,295 @@
+/*========= レイアウトのためのCSS ===============*/
+
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*========= 背景動画設定のCSS ===============*/
+
+/*header設定*/
+#header {
+    position: relative;
+    /*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;
+    /*高さを全画面にあわせる*/
+}
+
+#video-area {
+    /* position: fixed; スクロールしても画像固定するcss */
+    z-index: -1;
+    /*最背面に設定*/
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    /* position: fixed; */
+    z-index: -1;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh;
+    /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw;
+    /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* page-headerのロゴ/ボタンの位置 */
+.page-header {
+    display: flex;
+}
+
+/* main-icon ゴリラ画像 */
+.main-icon {
+    max-width: 10%;
+}
+
+/* 名前・コメントの位置 */
+.page-name {
+    font-size: 100px;
+    margin-top: 1%;
+    color: #24425A;
+}
+
+.home-content {
+    text-align: center;
+    padding-top: 7%;
+
+}
+
+.home-content p {
+    font-size: 1.5rem;
+    margin: 70px 0 42px;
+    color: #24425A;
+}
+
+/* .home-content span{
+    background: rgb(219, 243, 8,0.4);
+    padding: 0px 3px;
+    border-radius:4px;
+} */
+/* ボタンの位置 */
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 160%;
+}
+
+.main-profile {
+    text-decoration: none;
+}
+
+.main-nav li {
+    margin-left: 36px;
+    background-color: #24425A;
+    padding: 2px 13px;
+
+}
+
+.main-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    clear: #0bd;
+}
+
+.main-name {
+    color: #24425A;
+}
+
+.sub-content {
+    padding-top: 5%;
+}
+
+.sub-title {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #24425A;
+}
+
+.sub-dot {
+    font-family: Avenir;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #24425A;
+}
+
+/* .works-title{
+    display: flex;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 30px;
+} */
+.sub-nav {
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.sub-nav li {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #24425A;
+    padding: 2px 13px;
+}
+
+.sub-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sub-name {
+    font-size: 50px;
+    margin: 35px;
+}
+
+/* ここからBack-endのcss */
+.box-works {
+    margin: auto;
+    padding-top: 80px;
+}
+
+.works-title {
+    margin: auto;
+    text-align: center;
+    color: #24425A;
+    font-size: 45px;
+}
+
+.works-dot {
+    margin: auto;
+    text-align: center;
+    color: #5A5858;
+}
+
+.works-color {
+    color: #5A5858;
+    font-size: 30px;
+}
+
+.works-list {
+    list-style: none;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+.works-list li {
+    display: block;
+    float: left;
+    width: 100%;
+    /* max-width: 348px;画像を三つ並べる時はこれを使う */
+    max-width: 500px;
+}
+
+li.works-Product {
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+li.works-Products {
+    margin-left: 22%
+}
+
+img.works-img {
+    width: 100%;
+    border: 1px solid #24425A;
+}
+
+li.works-quiz {
+    margin-left: 22%;
+}
+
+img.work-img {
+    width: 100%;
+    border: 1px solid #24425A;
+}
+
+img.quiz {
+    border: 1px solid #24425A;
+    width: 100%;
+    height: 183px;
+}
+
+
+img.img-quzi {
+    border: 1px solid #24425A;
+    width: 100%;
+    height: 184px;
+}
+
+.works-list li h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #555353;
+}
+
+.works-list li p {
+    color: #555353;
+}
+
+.works-list li span {
+    font-size: 18px;
+    color: #555353;
+}
+
+div.link {
+    display: flex;
+    margin-top: 15px;
+}
+
+div.link a {
+    background-color: #24425A;
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* footerのスタイルシート */
+p.black-footer {
+    background-color: #E9EFEF;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: #938F8F;
+    margin: auto;
+    margin-top: 10%;
+}

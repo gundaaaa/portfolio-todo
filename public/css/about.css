@@ -1,0 +1,195 @@
+/* page-headerのロゴ/ボタンの位置 */
+.page-header {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* main-icon ゴリラ画像 */
+.main-icon {
+    max-width: 10%;
+}
+
+/* ボタンの位置 */
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 160%;
+}
+
+.main-profile {
+    text-decoration: none;
+    color: #24425A;
+}
+
+.main-nav li {
+    margin-left: 36px;
+    background-color: #24425A;
+    padding: 2px 13px;
+
+}
+
+.main-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    clear: #0bd;
+}
+
+.main-name {
+    color: #24425A;
+}
+
+/* bodyの部分 */
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+#splash {
+    /*fixedで全面に固定*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: #333;
+    text-align: center;
+    color: #fff;
+}
+
+/* Loading画像中央配置　*/
+#splash_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*========= 背景動画設定のCSS ===============*/
+
+/*header設定*/
+#header {
+    position: relative;
+    /*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;
+    /*高さを全画面にあわせる*/
+}
+
+#video-area {
+    /* position: fixed; スクロールしても画像固定するcss */
+    z-index: -1;
+    /*最背面に設定*/
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    /* position: fixed; */
+    z-index: -1;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh;
+    /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw;
+    /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* fadeUpをするアイコンの動き */
+
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* hedaderの後 */
+.main-title {
+    font-size: 100px;
+    color: #707070;
+    padding-left: 30px;
+}
+
+.main-list {
+    padding-left: 30px;
+    color: #24425A;
+    font-weight: 300;
+}
+
+/* ここから写真・経歴・インスタ等ののcss */
+.work-photo {
+    width: 18%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box-works {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.work-list {
+    line-height: 3;
+    font-size: 25px;
+    color: #24425A;
+    padding-left: 10%;
+    font-weight: 300;
+    width: 700px;
+}
+.work-name {
+    color: #707070;
+    margin-left: 65px;
+    font-size:20px;
+}
+.sub-nav{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+.icon{
+    width: 50px;
+    margin: 0px 25px;
+    background-color: #D5C0A9;
+    padding:5px;
+    border-radius: 30px;
+}

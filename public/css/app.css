@@ -1,0 +1,151 @@
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+#splash {
+    /*fixedで全面に固定*/
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	text-align:center;
+	color:#fff;
+}
+
+/* Loading画像中央配置　*/
+#splash_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    z-index: 999;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	width: 100%;
+}
+
+/*割れる画面のアニメーション*/
+.loader_cover {
+    width: 100%;
+    height: 50%;
+    background-color: #333;
+    transition: all .2s cubic-bezier(.04, .435, .315, .9);
+    transform: scaleY(1);
+}
+/*上の画面*/
+.loader_cover-up {
+    transform-origin: center top;
+}
+
+/*下の画面*/
+.loader_cover-down {
+    position: absolute;
+    bottom: 0;
+    transform-origin: center bottom;
+}
+/*クラス名がついたらY軸方向に0*/
+.coveranime {
+    transform: scaleY(0);
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+#container{
+    width:100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    color: #333;
+}
+
+a:hover{
+     text-decoration: none;   
+}
+
+/*========= 背景動画設定のCSS ===============*/
+
+/*header設定*/
+#header{
+    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;/*高さを全画面にあわせる*/
+} 
+
+#video-area{
+    position: fixed;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* main-icon ゴリラ画像 */
+.main-icon {
+    max-width: 30%;
+    margin-left: 7%;
+}
+/* 名前・コメントの位置 */
+.page-name{
+    font-size: 80px;
+    margin-top: 1%;
+    color: #24425A;
+}
+.home-content
+{
+text-align: center;
+padding-top:7%;
+}
+.home-content p{
+    font-size: 1.2rem;
+    margin: 15px 0 42px;
+    color: #24425A;
+}
+.home-content span{
+    background: rgb(219, 243, 8,0.4);
+    padding: 0px 3px;
+    border-radius:4px;
+}
+/* ボタンの位置 */
+.main-nav{
+    display: flex;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    /* margin-left: 35%; */
+    justify-content: center;
+    margin-right: 30px;
+    margin-right: 35px;
+}
+.main-nav li{
+margin-left:36px;
+background-color: #24425A;
+padding: 2px 15px;
+
+}
+.main-nav a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    clear: #0bd;
+}
