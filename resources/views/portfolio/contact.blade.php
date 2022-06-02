@@ -42,24 +42,55 @@
         @csrf
         <div>
             <label for="company">貴社名</label>
-            <input type="text" name="my-company">
+            <input type="text" name="my_company">
         </div>
         <div>
+            @error('name')
+            <tr>
+                <th>ERROR</th>
+                <td>{{$message}}</td>
+            </tr>
+            @enderror
             <label for="name">お名前　<span>必須</span></label>
             <input type="text" name="name">
         </div>
         <div>
+            @error('email')
+            <tr>
+                <th>ERROR</th>
+                <td>{{$message}}</td>
+            </tr>
+            @enderror
             <label for="email">メールアドレス　<span>必須</span></label>
             <input type="email" name="email">
         </div>
         <div>
+            @error('tel')
+            <tr>
+                <th>ERROR</th>
+                <td>{{$message}}</td>
+            </tr>
+            @enderror
             <label for="tel">電話番号　<span>必須</span></label>
             <input type="tel" name="tel">
         </div>
         <div>
+            @error('Requirements')
+            <tr>
+                <th>ERROR</th>
+                <td>{{$message}}</td>
+            </tr>
+            @enderror
             <label for="message">お問い合わせ内容　<span>必須</span></label>
             <textarea name="message"></textarea>
         </div>
-        <input type="submit" class="button" value="送信">
+        <input type="submit" id="myfunc" class="button" value="送信">
+        <script>
+            'use strict';
+            const myfunc = document.getElementById("myfunc");
+            myfunc.addEventListener("click", function() {
+                alert('この内容で本当によろしいでしょうか？');
+            });
+        </script>
     </form>
 </body>

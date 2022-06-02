@@ -18,5 +18,8 @@ Route::get('works', [PortfolioController::class, 'works']);
 Route::get('Design', [PortfolioController::class, 'design']);
 Route::get('Front', [PortfolioController::class, 'front']);
 Route::get('about', [PortfolioController::class, 'about']);
+// お問い合わせの表示
 Route::get('contact', [PortfolioController::class, 'contact']);
-Route::post('contact', [PortfolioController::class, 'contact']);
+// お問い合わせをDBに入れる為の表示
+Route::post('contact', [PortfolioController::class, 'contacts']);
+Route::get('sss', [PortfolioController::class, 'sss']);

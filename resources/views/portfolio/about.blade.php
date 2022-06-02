@@ -12,7 +12,9 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <script src="/js/4-1-4.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -44,7 +46,7 @@
     <div class="box-works">
         <img class="work-photo" src="icon/img/0339.jpeg" slt="自分の写真">
         <div>
-            <p class="work-list">2016年　テニススクール・ノアにテニスコーチとして就職<br> 2021年　オンラインスクールにてプログラミングの勉強<br>2022年　7月テニススクール・ノアを退社予定</p>
+            <p class="work-list TextTyping">2016年　テニススクール・ノアにテニスコーチとして就職　　　　2021年　オンラインスクールにてプログラミングの勉強　　　　2022年　7月テニススクール・ノアを退社予定</p>
             <p class="work-name">福島 優一 Yuu Fukushima</p>
             <ul class="sub-nav">
                 <li><a href="https://www.instagram.com/samurai_1344"><img class="icon" src="icon/img/instagram.png" alt="instaアイコン"></a></li>
