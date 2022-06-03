@@ -20,8 +20,8 @@ class CreatePortfolioTable extends Migration
             $table->string('email', 191)->unique();
             $table->string('tel')->charset('utf8');
             $table->string('Requirements')->charset('utf8');
-            $table->timestamp('created_at')->nullable();
-            // $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
+            // $table->timestamp('created_at')->nullable();
+            $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 
