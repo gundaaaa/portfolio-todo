@@ -17,7 +17,7 @@ class CreatePortfolioTable extends Migration
             $table->increments('id');
             $table->string('company')->charset('utf8');
             $table->string('name')->charset('utf8');
-            $table->string('email', 191)->unique();
+            $table->string('email')->charset('utf8');
             $table->string('tel')->charset('utf8');
             $table->string('Requirements')->charset('utf8');
             // $table->timestamp('created_at')->nullable();
