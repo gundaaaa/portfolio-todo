@@ -15,12 +15,13 @@ class CreatePortfolioTable extends Migration
     {
         Schema::create('portfolio', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('company')->default('active');
+            $table->string('company')->charset('utf8');
             $table->string('name')->charset('utf8');
-            $table->string('email')->charset('utf8');
+            $table->string('email', 191)->unique();
             $table->string('tel')->charset('utf8');
             $table->string('Requirements')->charset('utf8');
-            $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('created_at')->nullable();
+            // $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 
