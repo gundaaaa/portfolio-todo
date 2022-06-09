@@ -325,4 +325,19 @@ p.black-footer {
     margin-top: 60px;
     margin-left: 30px;
 }
+.sub-image {
+    background-image: url(../icon/img/920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
+img.work-img {
+    width: 63%;
+}
+img.quiz {
+    width: 63%;
+}
+.works-list li h3 {
+    font-size: 18px;
+}
 }
