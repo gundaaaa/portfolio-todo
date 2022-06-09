@@ -50,7 +50,7 @@
                 <li><a href="Front#anchor">Front-end</a></li>
             </ul>
         </nav>
-        <h2 class="sub-name">Design</h2>
+        <h2 class="sub-name" id="anchor">Design</h2>
     </div>
     <!-- ここからdesignの詳細スタート 1段目 -->
     <div class="box-works">

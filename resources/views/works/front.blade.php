@@ -48,12 +48,12 @@
         </video>
         <nav>
             <ul class="sub-nav">
-                <li id="anchor"><a href="works#anchor">Back-end</a></li>
+                <li><a href="works#anchor">Back-end</a></li>
                 <li><a href="Design#anchor">Design</a></li>
                 <li><a href="Front#anchor">Front-end</a></li>
             </ul>
         </nav>
-        <h2 class="sub-name">Front-end</h2>
+        <h2 class="sub-name" id="anchor">Front-end</h2>
     </div>
     <!--  Front-endの始まり-->
     <div class="box-works">

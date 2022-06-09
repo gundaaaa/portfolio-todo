@@ -45,12 +45,12 @@
     <div>
         <nav>
             <ul class="sub-nav">
-                <li id="anchor"><a href="works#anchor">Back-end</a></li>
+                <li><a href="works#anchor">Back-end</a></li>
                 <li><a href="Design#anchor">Design</a></li>
                 <li><a href="Front#anchor">Front-end</a></li>
             </ul>
         </nav>
-        <h2 class="sub-name">Back-end</h2>
+        <h2 class="sub-name" id="anchor">Back-end</h2>
     </div>
     <!-- ここからBack-endの詳細スタート 1段目 -->
     <div class="box-works">
