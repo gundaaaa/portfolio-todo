@@ -222,7 +222,7 @@ a:hover {
 @media (max-width: 767px) {
     #video {
         top: 50%;
-        transform: translate(-75%, -50%);
+        transform: translate(-80%, -50%);
     }
 
     #splash {
@@ -279,8 +279,8 @@ a:hover {
 
     .work-list {
         line-height: 2;
-        font-size: 14px;
-        width: 360px;
+        font-size: 13px;
+        width: 340px;
         /* padding-left: 5%; */
     }
     .sub-nav {
