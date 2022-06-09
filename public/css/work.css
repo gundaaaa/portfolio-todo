@@ -298,8 +298,7 @@ p.black-footer {
     #video {
         top: 50%;
         transform: translate(-80%, -50%);
-        min-height: 110%;
-        width: 249.777778vh;
+        width: 168.777778vh;
     }
 
     #splash {
