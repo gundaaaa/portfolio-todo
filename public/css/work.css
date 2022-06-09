@@ -297,7 +297,7 @@ p.black-footer {
 @media (max-width: 767px) {
     #video {
         top: 50%;
-        transform: translate(-80%, -50%);
+        transform: translate(-83%, -50%);
     }
 
     #splash {
@@ -332,7 +332,7 @@ p.black-footer {
 .sub-nav {
     font-size: 1.2rem;
     margin-right: 25px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 .sub-nav li {
     margin-left: 3%;

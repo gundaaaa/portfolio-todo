@@ -276,3 +276,52 @@ p.black-footer {
     margin: auto;
     margin-top: 10%;
 }
+
+@media (max-width: 767px) {
+    #video {
+        top: 50%;
+        transform: translate(-80%, -50%);
+    }
+
+    #splash {
+        position: absolute;
+    }
+
+/* headerの変更 */
+.main-icon {
+    max-width: 40%;
+    padding-left: 10px;
+}
+.main-profile {
+ font-size: 30px;
+}
+.main-name {
+    margin-left: 20px;
+}
+.main-nav {
+    margin-left: 0px;
+    padding: 0%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.page-header {
+    display: contents;
+}
+
+.main-nav li {
+    margin-left: 24px;
+}
+.sub-nav {
+    font-size: 1.2rem;
+    margin-right: 25px;
+    margin-top: 20%;
+}
+.sub-nav li {
+    margin-left: 3%;
+}
+.sub-name {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+}
