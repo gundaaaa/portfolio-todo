@@ -222,3 +222,14 @@ span {
     background-color: red;
     padding: 2px;
 }
+
+@media (max-width: 767px) {
+    #video {
+        top: 50%;
+        transform: translate(-85%, -50%);
+    }
+
+    #splash {
+        position: absolute;
+    }
+}

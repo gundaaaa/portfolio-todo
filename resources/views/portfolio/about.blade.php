@@ -48,7 +48,9 @@
     <div class="box-works">
         <img class="work-photo" src="icon/img/0339.jpeg" slt="自分の写真">
         <div>
-            <p class="work-list TextTyping">2016年　テニススクール・ノアにテニスコーチとして就職　　　　2021年　オンラインスクールにてプログラミングの勉強　　　　2022年　7月テニススクール・ノアを退社予定</p>
+            <p class="work-list TextTyping">2016年テニススクール・ノアにテニスコーチとして就職</P>
+            <p class="work-list TextTyping">2021年オンラインスクールにてプログラミングの勉強</P>
+            <p class="work-list TextTyping">2022年7月テニススクール・ノアを退社予定</p>
             <p class="work-name">福島 優一 Yuu Fukushima</p>
             <ul class="sub-nav">
                 <li><a href="https://www.instagram.com/samurai_1344"><img class="icon" src="icon/img/instagram.png" alt="instaアイコン"></a></li>

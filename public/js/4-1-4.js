@@ -1,14 +1,14 @@
 //logoの表示
 $(window).on('load',function(){
-	$("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+	$("#splash").delay(1200).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
 
-	$("#video-area").delay(1500).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
+	$("#video-area").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
 });
 
 //テキストのカウントアップの設定
 var bar = new ProgressBar.Line(splash_text, {//id名を指定
 	strokeWidth: 0,//進捗ゲージの太さ
-	duration: 1500,//時間指定(1000＝1秒)
+	duration: 1200,//時間指定(1000＝1秒)
 	trailWidth: 0,//線の太さ
 	text: {//テキストの形状を直接指定	
 		style: {//天地中央に配置
@@ -44,7 +44,7 @@ function TextTypingAnime() {
 			thisChild = $(this).children(); //spanタグを取得
 			//spanタグの要素の１つ１つ処理を追加
 			thisChild.each(function (i) {
-				var time = 110;
+				var time = 200;
 				//時差で表示する為にdelayを指定しその時間後にfadeInで表示させる
 				$(this).delay(time * i).fadeIn(time);
 			});

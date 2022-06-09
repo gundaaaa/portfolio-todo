@@ -222,7 +222,7 @@ a:hover {
 @media (max-width: 767px) {
     #video {
         top: 50%;
-        transform: translate(-85%, -50%);
+        transform: translate(-75%, -50%);
     }
 
     #splash {
