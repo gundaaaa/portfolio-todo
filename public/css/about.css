@@ -171,28 +171,36 @@ a:hover {
     font-weight: 300;
     width: 700px;
 }
+
 /* タイピングのcss */
-.TextTyping span{
+.TextTyping span {
     display: none;
 }
 
 
 /*文字列後ろの線の設定*/
 .TextTyping::after {
- 	content: "|";
-	animation: typinganime .8s ease infinite;
+    content: "|";
+    animation: typinganime .8s ease infinite;
 }
 
-@keyframes typinganime{
-	from{opacity:0}
-	to{opacity:1}
+@keyframes typinganime {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
+
 .work-name {
     color: #707070;
     margin-left: 65px;
-    font-size:20px;
+    font-size: 20px;
 }
-.sub-nav{
+
+.sub-nav {
     list-style: none;
     width: 100%;
     padding: 0;
@@ -202,10 +210,83 @@ a:hover {
     margin-bottom: 0px;
     margin-left: 40px;
 }
-.icon{
+
+.icon {
     width: 50px;
     margin: 0px 25px;
     background-color: #D5C0A9;
-    padding:5px;
+    padding: 5px;
     border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    #video {
+        top: 50%;
+        transform: translate(-85%, -50%);
+    }
+
+    #splash {
+        position: absolute;
+    }
+
+    /* headerの変更 */
+    .main-icon {
+        max-width: 26%;
+        padding-left: 10px;
+    }
+
+    .main-nav {
+        margin-left: 0px;
+        padding: 0%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .page-header {
+        display: contents;
+    }
+
+    .main-nav li {
+        margin-left: 24px;
+    }
+
+    .main-name {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    .main-title {
+        font-size: 60px;
+        margin-bottom: 0%;
+        padding-left: 15px;
+    }
+    .main-list {
+        padding-left: 14px;
+    }
+
+    /* 写真より下の変更 */
+    .box-works {
+        display: contents;
+    }
+
+    .work-photo {
+        /* width: 90%;
+        margin-left: 21px; */
+        width: 80%;
+        height: 300px;
+        margin-left: 38px;
+    }
+
+    .work-list {
+        line-height: 2;
+        font-size: 14px;
+        width: 360px;
+        /* padding-left: 5%; */
+    }
+    .sub-nav {
+        margin-left: 4px;
+    }
+    .icon {
+        margin: 0px 20px;
+    }
 }

@@ -43,7 +43,7 @@
         <p class="main-title">about</p>
     </div>
     <div>
-        <p class="main-list">HTML / CSS / JavaScript / Mysql / Laravel / codeigniter /<br> 　　　　　　　Adobe XD / Adobe Ps</p>
+        <p class="main-list">HTML / CSS / JavaScript / Mysql / Laravel / codeigniter /<br> Adobe XD / Adobe Ps</p>
     </div>
     <div class="box-works">
         <img class="work-photo" src="icon/img/0339.jpeg" slt="自分の写真">
