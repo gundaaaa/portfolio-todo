@@ -309,6 +309,11 @@ p.black-footer {
         transform: translate(-89%, -50%);
         width: 112.777778vh;
     } */
+    #video2 {
+       display: none;
+        /* background: url('../icon/img/47713Moment.jpg') no-repeat;
+        background-size: cover; */
+    }
 
     #splash {
         position: absolute;
