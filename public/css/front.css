@@ -303,12 +303,11 @@ p.black-footer {
     margin-top: 10%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 844px) {
     #video {
         /* top: 50%;
         transform: translate(-89%, -50%);
         width: 112.777778vh; */
-        display: none;
     }
 
     #splash {
@@ -361,5 +360,8 @@ img.work-img {
 }
 img.quiz {
     width: 63%;
+}
+.box-works {
+    margin-right: 40px;
 }
 }
