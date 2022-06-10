@@ -306,7 +306,7 @@ p.black-footer {
 @media (max-width: 767px) {
     #video {
         top: 50%;
-        transform: translate(-80%, -50%);
+        transform: translate(-89%, -50%);
         /* width: 168.777778vh; */
         width: 112.777778vh;
     }
@@ -357,12 +357,9 @@ p.black-footer {
     min-height: 90%;
 }
 img.work-img {
-    width: 78%;
+    width: 63%;
 }
 img.quiz {
-    width: 78%;
-}
-.works-list {
-    margin: -50px 0px 0px -48px;
+    width: 63%;
 }
 }
