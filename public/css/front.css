@@ -199,8 +199,8 @@ a:hover {
     width: auto;
     height: auto;
     z-index: -100;
-    background: url('../icon/img/47713Moment.jpg') no-repeat;
-    background-size: cover;
+    /* background: url('../icon/img/47713Moment.jpg') no-repeat;
+    background-size: cover; */
 }
 /* ここからBack-endのcss */
 .box-works {
@@ -307,6 +307,7 @@ p.black-footer {
     #video {
         top: 50%;
         transform: translate(-80%, -50%);
+        width: 168.777778vh;
     }
 
     #splash {
@@ -349,5 +350,18 @@ p.black-footer {
 .sub-name {
     margin-top: 60px;
     margin-left: 30px;
+}
+#video2{
+    min-width: 60%;
+    min-height: 90%;
+}
+img.work-img {
+    width: 78%;
+}
+img.quiz {
+    width: 78%;
+}
+.works-list {
+    margin: -50px 0px 0px -28px;
 }
 }
