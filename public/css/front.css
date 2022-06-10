@@ -304,11 +304,11 @@ p.black-footer {
 }
 
 @media (max-width: 844px) {
-    #video {
-        /* top: 50%;
+    /* #video {
+        top: 50%;
         transform: translate(-89%, -50%);
-        width: 112.777778vh; */
-    }
+        width: 112.777778vh;
+    } */
 
     #splash {
         position: absolute;
@@ -363,5 +363,8 @@ img.quiz {
 }
 .box-works {
     margin-right: 40px;
+}
+.works-list {
+    margin: 27px -7px -78px -56px;
 }
 }
