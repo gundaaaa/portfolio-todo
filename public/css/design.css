@@ -279,7 +279,7 @@ p.black-footer {
 
 @media (max-width: 767px) {
     #video {
-        transform: translate(-81%, -50%);
+        transform: translate(-80%, -50%);
         width: 177.777778vh;
     }
 
