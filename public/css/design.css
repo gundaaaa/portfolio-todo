@@ -282,6 +282,7 @@ p.black-footer {
         top: 50%;
         transform: translate(-80%, -50%);
         width: 112.777778vh;
+        display: none;
     }
 
     #splash {
