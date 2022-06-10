@@ -278,11 +278,12 @@ p.black-footer {
 }
 
 @media (max-width: 767px) {
-    /* #video {
-        top: 50%;
+    #video {
+        /* top: 50%;
         transform: translate(-80%, -50%);
-        width: 112.777778vh;
-    } */
+        width: 112.777778vh; */
+        display: none;
+    }
 
     #splash {
         position: absolute;

@@ -305,10 +305,10 @@ p.black-footer {
 
 @media (max-width: 767px) {
     #video {
-        top: 50%;
+        /* top: 50%;
         transform: translate(-89%, -50%);
-        /* width: 168.777778vh; */
-        width: 112.777778vh;
+        width: 112.777778vh; */
+        display: none;
     }
 
     #splash {
