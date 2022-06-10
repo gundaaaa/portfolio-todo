@@ -303,18 +303,11 @@ p.black-footer {
     margin-top: 10%;
 }
 
-@media (max-width: 844px) {
-    /* #video {
-        top: 50%;
-        transform: translate(-89%, -50%);
-        width: 112.777778vh;
-    } */
-    #video2 {
-       display: none;
-        /* background: url('../icon/img/47713Moment.jpg') no-repeat;
-        background-size: cover; */
+@media (max-width: 767px) {
+    #video {
+        transform: translate(-87%, -50%);
+        width: 177.777778vh;
     }
-
     #splash {
         position: absolute;
     }
@@ -361,15 +354,18 @@ p.black-footer {
     min-height: 90%;
 }
 img.work-img {
-    width: 63%;
+    width: 68%;
 }
 img.quiz {
-    width: 63%;
+    width: 68%;
 }
 .box-works {
     margin-right: 40px;
 }
 .works-list {
-    margin: 27px -7px -78px -56px;
+    margin: 27px -7px -78px -36px;
+}
+li.works-quiz {
+    margin-left: 28%;
 }
 }
